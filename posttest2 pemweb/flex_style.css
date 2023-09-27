@@ -1,0 +1,140 @@
+@media screen and (max-width: 480px) and (min-width: 240px) {
+
+    nav {
+        display: none;
+    }
+
+    section {
+        width: fit-content;
+    }
+
+    .home,
+    .about {
+        flex-direction: column;
+    }
+
+    .hometitle h2,
+    h3 {
+        font-size: 100%;
+    }
+
+    .hometitle h1 {
+        font-size: 250%;
+    }
+
+    .home img {
+        display: none;
+    }
+
+    .hometitle p {
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    /* about */
+
+    .about img {
+        width: 100%;
+    }
+
+    .abouttext {
+        padding: 10px;
+    }
+
+    /* photos*/
+    .photos {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 20px 20px;
+    }
+
+    /* Contact */
+
+    .contact {
+        flex-direction: column;
+    }
+
+    #contact h2 {
+        margin-left: 25%;
+    }
+
+    .account {
+        padding-bottom: 30px;
+        margin-left: 70px;
+    }
+
+    .account li {
+        padding: 0px 5px;
+    }
+
+    .mail {
+        margin: auto;
+    }
+
+    .mail input {
+        width: 120%;
+    }
+
+    textarea {
+        width: 120%;
+    }
+
+    /* footer */
+
+    .sub-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-Photos {
+        padding-top: 30px;
+    }
+
+    .nav-footer {
+        padding-top: 30px;
+    }
+
+    .hamburger {
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: black;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 69px;
+        width: 100%;
+        left: 0%;
+        background-color: rgb(252, 252, 252);
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        border-top: 1px solid black;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .deactive {
+        display: none;
+    }
+
+}
