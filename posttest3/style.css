@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header li {
+    padding-right: 30px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mytitle {
+    font-family: 'Pacifico', cursive;
+}
+
+/* Home */
+.home,
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;
+}
+
+#home,
+#photos {
+    background-color: rgb(123, 40, 105);
+}
+
+.hometitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.hometitle h3 {
+    font-size: 200%;
+}
+
+.hometitle h1 {
+    font-size: 300%;
+}
+
+.hometitle h2 {
+    font-size: 200%;
+}
+
+.hometitle p {
+    padding-top: 30px;
+    padding-right: 150px;
+}
+
+.home img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* About */
+.about img {
+    width: 200px;
+}
+
+.abouttext {
+    text-align: center;
+}
+
+.abouttext h3 {
+    font-size: 200%;
+    padding-bottom: 20px;
+}
+
+/* photos */
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#photos h2 {
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+
+.cards {
+    width: 30%;
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 10%;
+}
+
+.cards h3 {
+    padding: 30px 0px 20px;
+}
+
+.cards img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 300%;
+}
+
+.account h3 {
+    text-align: center;
+}
+
+.account ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.account li {
+    padding: 0px 20px;
+}
+
+.account a {
+    color: rgb(123, 40, 105);
+}
+
+.mail input {
+    margin: 10px;
+    padding: 20px 10px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.input {
+    border: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+textarea {
+    margin-left: 10px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+.sending-button {
+    background-color: rgb(123, 40, 105);
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Footer */
+.sub-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(123, 40, 105);
+    padding: 50px 0px;
+    color: white;
+}
+
+.sub-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-photo ul,
+.nav-footer ul {
+    list-style: none;
+}
+
+.footer-photo li,
+.nav-footer li {
+    padding: 5px 0px;
+}
+
+.closed-footer {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+/* start from farhan */
+.to-top {
+    position: fixed;
+    display: flex;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+    bottom: 5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(232, 232, 232);
+    box-shadow: 1px 1px 5px black;
+    opacity: 0;
+}
+
+.to-top.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.darkmode {
+    background-color: black;
+    color: white;
+}
+
+.darkmode #photos h2,
+.darkmode img {
+    color: white;
+}
+
+.darkmode .cards {
+    color: white;
+    background-color: black;
+}
+
+.darkmode #home,
+.darkmode #photos {
+    background-color: rgb(123, 40, 105);
+}
+
+/* end from farhan */
+
+.dark-mode-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.dark-mode-button:hover {
+    background-color: rgb(123, 40, 105);
+    color: white;
+    border-color: white;
+}
